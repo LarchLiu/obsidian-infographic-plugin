@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-infographic-plugin",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Render @antv/infographic code blocks in Obsidian.",
 	"main": "main.js",
 	"type": "module",
