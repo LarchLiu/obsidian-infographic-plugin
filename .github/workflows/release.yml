@@ -7,7 +7,7 @@ on:
 
 env:
   # Must match `manifest.json` -> `id`
-  PLUGIN_ID: obsidian-infographic
+  PLUGIN_ID: antv-infographic
 
 permissions:
   contents: write
