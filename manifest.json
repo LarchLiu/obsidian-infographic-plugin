@@ -1,7 +1,7 @@
 {
 	"id": "antv-infographic",
 	"name": "Infographic",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "0.15.0",
 	"description": "Render AntV Infographic (infographic.antv.vision) code blocks.",
 	"author": "cloudgeek",
