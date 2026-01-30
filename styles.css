@@ -1,8 +1,26 @@
-/*
+.infographic-codeblock__container {
+  width: 100%;
+  overflow: auto;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+  background: var(--background-primary);
+}
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
+.infographic-codeblock__canvas {
+  width: 100%;
+  height: auto;
+}
 
-If your plugin does not need CSS, delete this file.
+.infographic-codeblock__canvas svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
-*/
+.infographic-codeblock__error {
+  margin: 0;
+  padding: 12px;
+  white-space: pre-wrap;
+  color: var(--text-error);
+  background: var(--background-secondary);
+}

@@ -8,6 +8,7 @@ export default tseslint.config(
 		languageOptions: {
 			globals: {
 				...globals.browser,
+				...globals.node,
 			},
 			parserOptions: {
 				projectService: {
@@ -27,7 +28,7 @@ export default tseslint.config(
 		"dist",
 		"esbuild.config.mjs",
 		"eslint.config.js",
-		"version-bump.mjs",
+		"scripts/version-bump.mjs",
 		"versions.json",
 		"main.js",
 	]),
